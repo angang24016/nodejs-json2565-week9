@@ -1,5 +1,5 @@
 const { readFileSync } = require("fs");
 
-const loadUser = ()=> JSON.parse(readFileSync('vnl2022.json'))
+const loadUser = ()=> JSON.parse(readFileSync('users.json'))
     
 module.exports = {loadUser}
